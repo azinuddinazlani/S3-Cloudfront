@@ -74,7 +74,7 @@ aws-portfolio-site/
 
 ### **3. Test website**
 
-https://<cloudfront-domain>/
+`https://<cloudfront-domain>/`
 
 <img src="assets/deploy.gif" width="500">
 
@@ -103,7 +103,7 @@ https://<cloudfront-domain>/
 ### Check CloudFront Cache:
 Run:
 
-curl -I https://<cloudfront-domain>/index.html
+`curl -I https://<cloudfront-domain>/index.html`
 
 Look for:
 X-Cache: Hit from cloudfront
